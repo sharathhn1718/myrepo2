@@ -15,6 +15,7 @@ pipeline {
                 // Your test steps go here. For example, if you have a test.ps1 script:
                 echo 'Test stage succeeded'
                 echo 'this is my test step 2'
+                exit 1
             }
         }
 
